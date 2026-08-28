@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html><html lang="ur">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quran Learning Website</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:lightblue;text-align:center;font-family:Arial,sans-serif}
+nav{background:darkblue;padding:14px;position:sticky;top:0;z-index:10}
+nav a{color:white;text-decoration:none;font-size:17px;margin:0 9px;font-weight:bold}
+nav a:hover{color:yellow}
+.hero{background:linear-gradient(135deg,darkblue,#2196f3);color:white;padding:60px 15px}
+.hero h1{font-size:38px}
+.hero p{font-size:19px;line-height:2}
+.btn{display:inline-block;background:white;color:darkblue;padding:11px 20px;margin:5px;border-radius:8px;text-decoration:none;font-weight:bold}
+.logo{width:140px;margin:25px auto;display:block}
+section{padding:50px 15px}
+h2{color:darkblue;font-size:30px}
+.purpose{background:white}
+.box{max-width:800px;margin:auto;background:#f2f7ff;padding:25px;border-radius:14px;box-shadow:0 4px 12px gray}
+.urdu{font-family:serif;direction:rtl;font-size:20px;line-height:2.2}
+.quran{background:#eef7ee}
+.lesson{max-width:750px;margin:20px auto;background:white;padding:20px;border-radius:12px;box-shadow:0 3px 10px gray;text-align:right;direction:rtl}
+.lesson h3{color:darkblue;font-size:22px}
+.lesson audio{width:100%;direction:ltr;margin:10px 0}
+.download{display:inline-block;background:darkblue;color:white;padding:9px 16px;border-radius:7px;text-decoration:none;direction:ltr}
+button{background:darkblue;color:white;font-size:17px;padding:10px 20px;border:0;border-radius:8px;cursor:pointer}
+.whatsapp{display:inline-block;background:#25D366;color:white;padding:11px 20px;margin:8px;border-radius:8px;text-decoration:none;font-weight:bold}
+.form{max-width:500px;margin:25px auto;background:white;padding:20px;border-radius:12px}
+.form input,.form textarea{width:90%;padding:11px;margin:8px;border:1px solid gray;border-radius:6px;font-size:16px}
+.form textarea{height:110px}
+footer{background:darkblue;color:white;padding:18px}
+@media(max-width:600px){
+nav a{display:inline-block;margin:4px;font-size:14px}
+.hero h1{font-size:29px}
+.hero p{font-size:17px}
+.logo{width:120px}
+.urdu{font-size:18px}
+}
+</style>
+</head><body><nav>
+<a href="#home">Home</a>
+<a href="#purpose">ہمارا مقصد</a>
+<a href="#quran">روزانہ درس</a>
+<a href="#contact">رابطہ</a>
+</nav><div class="hero" id="home">
+<h1>قرآنِ مجید کو سمجھیں</h1>
+<p>قرآن کی تعلیمات کو سمجھیں، سیکھیں اور اپنی زندگی میں عمل کریں۔</p>
+<a href="#quran" class="btn">روزانہ درس</a>
+<a href="#purpose" class="btn">ہمارا مقصد</a>
+</div><img src="logo.png" class="logo" alt="Logo"><section id="purpose" class="purpose">
+<h2>ہمارا مقصد</h2>
+<div class="box urdu">
+<p>ہمارا مقصد قرآنِ مجید کی تعلیمات کو عام کرنا ہے، تاکہ لوگ قرآن کو سمجھیں، اس کی ہدایات سے رہنمائی حاصل کریں اور اپنی زندگی میں ان پر عمل کریں۔</p>
+<p><strong>قرآن کو سمجھنا، اس کی تعلیمات پر عمل کرنا اور دوسروں تک پہنچانا ہی ہمارا مقصد ہے۔</strong></p>
+</div>
+</section><section id="quran" class="quran"><h2>📖 روزانہ درسِ قرآن</h2><p class="urdu">
+روزانہ پڑھے جانے والے درسِ قرآن کی آڈیو سنیں اور ڈاؤن لوڈ کریں۔
+</p><div class="lesson"><h3>درس نمبر 01 — سورۃ النساء، آیت 1</h3><p>📅 پہلا درس</p><audio controls>
+<source src="dars-01.mp3" type="audio/mpeg">
+آپ کا براؤزر آڈیو کو سپورٹ نہیں کرتا۔
+</audio><br><a href="dars-01.mp3" download class="download">
+📥 Download Audio
+</a></div></section><section id="contact"><h2>رابطہ کریں</h2><p>📞 0334-8808114</p><button onclick="location.href='tel:03348808114'">
+📞 Call Us
+</button><a class="whatsapp"
+href="https://wa.me/923348808114"
+target="_blank">
+💬 WhatsApp
+</a>
+
+<div class="form"><h2>پیغام بھیجیں</h2><form action="mailto:yousaf295@gmail.com"
+method="post"
+enctype="text/plain"><input type="text"
+name="Name"
+placeholder="Your Name"
+required>
+
+<input type="email"
+name="Email"
+placeholder="Your Email"
+required>
+
+<textarea name="Message"
+placeholder="Write your message..."
+required></textarea><br><button type="submit">
+📩 Send Message
+</button></form>
+</div></section><footer><p>© 2026 Quran Learning Website</p><p>
+قرآن کو سمجھیں، عمل کریں اور دوسروں تک پہنچائیں۔
+</p></footer></body>
+</html>
